@@ -6,7 +6,7 @@ import { Pool } from 'pg';
 import dotenv from 'dotenv';
 // connect databse
 dotenv.config();
-
+// connect variable values in dot env file
 export const pool = new Pool({
   user: process.env.DB_USER,
   host: process.env.DB_HOST,
