@@ -40,9 +40,9 @@ test('CRUD operations on cd.facilities table', async () => {
   expect(inserted.name).toBe('Mehdi');
 
   // edit the facility name
-  await update_facility_name(test_facility.facid, 'Updated Facility');
+  await update_facility_name(test_facility.facid, 'Mehdi');
   const updated = await read_facility(test_facility.facid);
-  expect(updated.name).toBe('Updated Facility');
+  expect(updated.name).toBe('Mehdi');
 
   // delete the facility
   await delete_facility(test_facility.facid);

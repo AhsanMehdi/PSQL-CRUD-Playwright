@@ -1,16 +1,7 @@
-/*
- - pg module
-*/
-import { Pool } from 'pg';
 
-// connect databse
-const pool = new Pool({
-  user: 'dev',
-  host: '35.225.166.131',
-  database: 'dev',
-  password: 'dev',
-  port: 5432,
-});
+// database/db-config.ts
+import { pool } from './db-pool';
+
 
 // create table to database
 export async function create_facilities_table() {
