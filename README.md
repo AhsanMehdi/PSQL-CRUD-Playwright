@@ -4,14 +4,20 @@
 
 ## installation
 
--   install node js
+1 - for playwright it is required to install the node js so, first install that
 
-    - download and install node js
+        -   Go to https://nodejs.org and download the LTS version.
 
--   install npm
+        -   after download install the node js
+
+2   -   install npm
 
     -   npm install
 
--   playwright
+3   -   playwright
 
-    -   npx playwright 
+    -   npm install playwright
+
+4   -   install pg
+
+    -   npm install pg
